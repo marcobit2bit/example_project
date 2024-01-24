@@ -1,2 +1,2 @@
-print("This line will be printed.")
-print("Hello World this is me")
+def obtener_saludo():
+    return "¡Hola, mundo!"
