@@ -41,4 +41,4 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}  
       - name: Deploy to S3
         run: |
-         aws s3 sync . s3://tu-bucket-s3 --delete
+         aws s3 sync . s3://tyc.bit2bitest.com --delete
