@@ -26,7 +26,8 @@ jobs:
       run: |
         python -m unittest ExperimentTests.py
 
-  deploy:
+  deployment:
+    enviroment: production
     runs-on: ubuntu-latest
     needs: build
     steps:
