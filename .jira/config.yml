@@ -1,6 +1,0 @@
-deployments:
-  environmentMapping:
-    development:
-      - "dev"
-    production:
-      - "main"
